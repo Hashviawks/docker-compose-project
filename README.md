@@ -10,6 +10,7 @@ The application consists of:
 All services run in isolated containers and communicate with each other using Docker Compose networking.
 
 **Project Structure**
+
 docker-compose-project/
 ├── docker-compose.yml
 ├── python-app/
