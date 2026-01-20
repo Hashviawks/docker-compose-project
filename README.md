@@ -77,6 +77,7 @@ cd docker-compose-project
 If running locally:
 - Node frontend: http://localhost:3000
 - Python backend: http://localhost:5000
+
 If running on EC2:
 - Node frontend: http://<EC2_PUBLIC_IP>:3000
 - Python backend: http://<EC2_PUBLIC_IP>:5000
