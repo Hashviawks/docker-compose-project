@@ -1,0 +1,7 @@
+{
+    "name": "node-app",
+    "version": "24.13.0",
+    "dependencies": {
+        "express": "^4.21.0"
+    }
+}

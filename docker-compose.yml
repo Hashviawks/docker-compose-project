@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  python:
+    build: "./python-app"
+    ports:
+      - "5000:5000"
+    environment:
+      DB_HOST: db
+      DB_USER: postgres
+      DB_PASS: postgres
+      DB_NAME: mydb
+    depends_on:
+      - db
+
+  node:
+    build: "./node-app"
+    ports:
+      - "3000:3000"
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: mydb
