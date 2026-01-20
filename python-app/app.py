@@ -2,7 +2,7 @@ from flask import Flask
 import psycopg2
 import os
 
-app = flask(__name__)
+app = Flask(__name__)
 
 @app.route("/")
 def home():
