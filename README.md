@@ -13,14 +13,19 @@ All services run in isolated containers and communicate with each other using Do
 
 docker-compose-project/
 ├── docker-compose.yml
+
 ├── python-app/
-│   ├── Dockerfile
-│   ├── app.py
-│   └── requirements.txt
+
+│      ├── Dockerfile
+ 
+│      ├── app.py
+
+│      └── requirements.txt
+
 └── node-app/
-    ├── Dockerfile
-    ├── index.js
-    └── package.json
+       ├── Dockerfile
+       ├── index.js
+       └── package.json
 
 **Technologies Used**
 - Docker
